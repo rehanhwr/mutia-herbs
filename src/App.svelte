@@ -13,5 +13,6 @@
 <style>
 	:global(body) {
 		padding: 0;
+		padding-top: 2.5rem;
 	}
 </style>

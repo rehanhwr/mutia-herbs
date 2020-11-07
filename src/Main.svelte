@@ -1,15 +1,36 @@
+<script>
+	import Section from './Section.svelte'
+
+	let products = [
+		{ title: "Product A", description: "Description but not too long", price: "IDR50.000", id: 1 },
+		{ title: "Product B", description: "Description but not too long", price: "IDR150.000", id: 2 },
+		{ title: "Product C", description: "Description but not too long", price: "IDR25.000", id: 3 },
+		{ title: "Product D", description: "Description but not too long", price: "IDR40.000", id: 4 },
+		{ title: "Product E", description: "Description but not too long", price: "IDR100.000", id: 5 }
+	];
+	let sectionData = [
+		{
+			title: "Jamu",
+			products: products,
+			id: 1
+		},
+		{
+			title: "Buku",
+			products: products,
+			id: 2
+		},
+		{
+			title: "Cupping",
+			products: products,
+			id: 3
+		},
+	]
+</script>
+
 <main class="p-4 text-gray-300">
-	<svg height="100%" width="100%">
-		<line x1=0 y1=4 x2=400 y2=4/>
-		<line x1=0 y1=34 x2=200 y2=34/>
-		<line x1=0 y1=64 x2=300 y2=64/>
-		<line x1=0 y1=94 x2=280 y2=94/>
-	</svg>
+	<Section sectionData={sectionData} />
 </main>
 
 <style>
-	svg line {
-		stroke: currentColor;
-		stroke-width: 12;
-	}
+
 </style>
