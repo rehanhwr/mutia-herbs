@@ -2,7 +2,7 @@
 	export let open = false
 </script>
 
-<aside class="fixed top-0  w-full h-full pt-3 bg-gray-200 border-r-2 shadow-lg overflow-x-hidden" class:open on:click|self={() => open = !open}>
+<aside class="fixed top-0 w-full sm:w-2/5 md:w-1/3 lg:w-1/5 h-full pt-3 bg-gray-200 border-r-2 shadow-lg overflow-x-hidden" class:open on:click|self={() => open = !open}>
 	<nav class="p-12 text-xl">
 		<a class="block" href="#jamu">Jamu</a>
 		<a class="block" href="#cupping">Cupping</a>
