@@ -5,7 +5,7 @@
 	export let sidebar = false
 </script>
 
-<header class="fixed w-full top-0 bg-gray-200 p-2 items-center text-gray-600 border-b-2" class:sidebar>
+<header class="fixed w-full top-0 border-b-2 border-dark-primary bg-primary p-2 items-center" class:sidebar>
     <nav class="flex justify-between mx-2">
         <Logo/>	
         <Hamburger bind:open={sidebar} />

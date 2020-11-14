@@ -1,5 +1,5 @@
 <svg width=auto height=30>
-	<text x=0 y=20>Mutia Herbs</text>
+	<text class="text-neutral" x=0 y=20>Mutia Herbs</text>
 </svg>
 
 <style>

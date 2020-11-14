@@ -2,11 +2,11 @@
 	export let open = false
 </script>
 
-<button class="text-gray-500 hover:text-gray-700 cursor-pointer border-none focus:outline-none" class:open on:click={() => open = !open}>
+<button class="bg-primary hover:text-gray-700 cursor-pointer border-none focus:outline-none" class:open on:click={() => open = !open}>
 	<svg width=32 height=24>
-		<line id="top" x1=0 y1=2  x2=32 y2=2/>
-		<line id="middle" x1=0 y1=12 x2=32 y2=12/>
-		<line id="bottom" x1=0 y1=22 x2=32 y2=22/>
+		<line class="text-neutral" id="top" x1=0 y1=2  x2=32 y2=2/>
+		<line class="text-neutral" id="middle" x1=0 y1=12 x2=32 y2=12/>
+		<line class="text-neutral" id="bottom" x1=0 y1=22 x2=32 y2=22/>
 	</svg>
 </button>
 
@@ -19,7 +19,7 @@
 	svg line {
 		stroke: currentColor;
 		stroke-width: 3;
-		transition: transform 0.3s ease-in-out
+		transition: transform 0.3s ease-in-out;
 	}
 	
 	button {

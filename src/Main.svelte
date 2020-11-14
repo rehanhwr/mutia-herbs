@@ -27,7 +27,7 @@
 	]
 </script>
 
-<main class="p-4 text-gray-300">
+<main class="p-4 text-dark-primary">
 	<Section sectionData={sectionData} />
 </main>
 
